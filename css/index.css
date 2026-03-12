@@ -13,7 +13,7 @@ body {
     /* footer abajo end*/
     font-family: "Outfit", sans-serif;
     background-color: #f6f5fc;
-    color: #666;
+    color: #000000;
 }
 
 header {
@@ -42,4 +42,9 @@ nav a {
 h1 {
     color: black;
     border-bottom: 50px black;
+}
+
+
+.oculto {
+    display: none;
 }

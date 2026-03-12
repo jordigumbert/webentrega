@@ -7,3 +7,28 @@ main {
         padding: 30px;
         flex-grow: 1;
 }
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+    /*
+    margin-left: auto ;
+    margin-right: auto;
+    */
+    text-align: center;
+    width: 50%;
+    /* min-width: fit-content;
+    min-height: auto;
+    */
+    padding: 5%;
+    border: solid 3px;
+    border-color:  #97bae7;
+}
+
+
+.form_input input {
+    margin: 5px;
+    padding: 5px;
+}
