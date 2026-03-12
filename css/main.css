@@ -1,0 +1,9 @@
+main {
+
+
+        background-image: url("../img/index_fons.jpg");
+        background-size: cover;
+
+        padding: 30px;
+        flex-grow: 1;
+}

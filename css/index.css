@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html , body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* footer abajo end*/
+    font-family: "Outfit", sans-serif;
+    background-color: #f6f5fc;
+    color: #666;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px ;
+    border-bottom: 5px solid #333;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+nav a {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+h1 {
+    color: black;
+    border-bottom: 50px black;
+}
