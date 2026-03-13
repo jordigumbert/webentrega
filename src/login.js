@@ -1,6 +1,7 @@
 const no_account = document.querySelectorAll(".signup")
 const si_account = document.querySelectorAll(".signin")
-console.log(no_account);
+const btn_login  = document.querySelector("#btn_log_in")
+// console.log(no_account);
 // retorna un array amb tots els botons marcats amb clase signup 
 
 const btn_sinup=document.querySelector("#btn_signup")
@@ -17,5 +18,14 @@ btn_sinup.addEventListener("click", (btn) => {
         elem.classList.toggle("oculto")
     } )
 
+})
+
+
+
+
+
+btn_login.addEventListener("click", (cosa ) => {
+cosa.preventDefault();
+    console.log(cosa) 
 })
 
