@@ -27,10 +27,18 @@ main {
     */
     border: solid 3px;
     border-color:  #97bae7;
+    background-color: hsla(208, 38%, 73%, 0.404);
+    
 }
 
 
 .form_input input {
     margin: 15px;
     padding: 5px;
+    background-color: hsla(208, 78%, 39%, 0.568)
+}
+
+.form_input input::placeholder {
+  color: rgba(37, 26, 194, 0.808);
+  opacity: 1; /* Firefox */
 }
