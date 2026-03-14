@@ -33,13 +33,12 @@
 /* id="btn_crear_cuenta"  */
 
 
-.btn_login{
-background-color: hsla(101, 79%, 44%, 0.658);
+form button {
+background-color: hsla(100, 80%, 45%, 0.666);
 margin: 10px;
-}
+width: 50%;
 
-#btn_signup {
-  color: rgb(53, 14, 223);
-  font-weight: bold;
-  text-decoration: underline;
 }
+ /* <button id="btn_log_in"         class="signup btn_login">  NO_FUNCA */
+ /* <button id="btn_crear_cuenta"   class="signup btn_login">  SI_FUNCA */
+

@@ -4,7 +4,7 @@
 
 .error_display {
     border: 3px;
-    border: solid red;
+    border: dotted red;
 }
 
 .logo {
@@ -23,4 +23,8 @@
     
     background-image: url("../img/Penta.png");
     background-size: cover;
+}
+
+.link_no_sub {
+ text-decoration: none;
 }

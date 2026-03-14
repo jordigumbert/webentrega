@@ -1,87 +1,83 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/utils.css" />
-    <link rel="stylesheet" href="./css/login.css" />
-    <link rel="stylesheet" href="./css/register.css" />
-    <link rel="stylesheet" href="./css/nav.css" />
-    <title>Z_ToDo</title>
-  </head>
-  <body>
-    <header>
-      <a href="index.html" class="logo"
-        ><p>TO-DO<br />'S'</p></a
-      >
-      <nav>
-        <a href="index.html">Inicio</a>
-        <a href="login.html">Log In</a>
 
-        <a href="info.html">Info</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/nav.css" />
 
-    <main>
-      <form class="form_login" id="formulari">
-        <h1>Log In page</h1>
+
+  <link rel="stylesheet" href="./css/login.css" />
+  <link rel="stylesheet" href="./css/register.css" />
+  <link rel="stylesheet" href="./css/utils.css" />
+
+  <title>Z_ToDo</title>
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="logo">
+      <p>TO-DO<br />'S'</p>
+    </a>
+
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="login.html">Log In</a>
+      <a href="info.html">Info</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- -------------------------------------------------------------------------------LOGIN------------------------- -->
+
+    <form class="form_login  " id="formulari_login">
+      <h1>Log In page</h1>
+      <p>Entra tus datos de login</p>
+      <p>
+        o
+        <label id="btn_signup" class="" href=""> Regístrate <a href="" class="link_no_sub">aqui</a> </label>, es gratis !
+      </p>
+
+      <input name="user_name" class="" type="text" placeholder="Nom d'usuari" />
+      <input name="password" class="" type="text" placeholder="Contrasenya" />
+      <span>
+      <button id="btn_log_in" class=" btn_login">LOG IN</button>
+      </span>
+    </form>
+    <!-- -------------------------------------------------------------------------------REGITRE----------------------- -->
+    <div>
+      <form class="form_login  " id="formulari_registre">
+        <h1>Pagina de Registro</h1>
+        <p>Entra tus datos de registro</p>
         <p>
-         Entra tus datos de login 
-        </p>
-        <p>o <label id="btn_signup" class="signup" href=""> Regístrate aqui </label>, es gratis !</p>
+        o
+        <label id="btn_signup" class="" href="index.html"> entra tus credenciales 
+      </p>
 
-        <input
-          name="user_name"
-          class="signin"
-          type="text"
-          placeholder="Nom d'usuari"
-        />
-        <input
-          name="password"
-          class="signin"
-          type="text"
-          placeholder="Contrasenya"
-        />
-        <input
-          name="confirm"
-          class="signup oculto"
-          type="text"
-          placeholder="Repeteix Contrasenya"
-        />
-        <input
-          name="email"
-          class="signup oculto"
-          type="text"
-          placeholder="correu electronic"
-        />
+        <input name="user_name" class=" " type="text" placeholder="Nom d'usuari" />
+        <input name="password"  class=" " type="text" placeholder="Contrasenya" />
+        <input name="confirm"   class=" " type="text" placeholder="Repeteix Contrasenya" />
+        <input name="email"     class=" " type="text" placeholder="correu electronic" />
 
         <span>
-          <label for="checkbox_input" class="signup oculto">
-            Acepto terms i Conds
+          <label for="checkbox_input" class=" ">
+            Acepto els termes i Condicions
           </label>
-          <input
-            id="checkbox_input"
-            class="signup oculto"
-            type="checkbox"
-            class="checkbox_input"
-          />
-          <span>
-            <button id="btn_log_in" class="signup btn_login">LOG IN</button>
-           </span>
-          <button id="btn_crear_cuenta" class="signup btn_login oculto">
+          <input id="checkbox_input" class=" " type="checkbox" class="checkbox_input" />
+          
+          <button id="btn_crear_cuenta" class=" btn_login " >
             CREAR CUENTA
           </button>
         </span>
       </form>
+    </div>
+    <!-- <img src="./img/index_fons.jpg" /> -->
+  </main>
 
+  <footer>
+    <a href="info.html">ZaHny inc © 2026 Bcn</a>
+  </footer>
+</body>
 
-
-      <!-- <img src="./img/index_fons.jpg" /> -->
-    </main>
-
-    <footer>
-      <a href="info.html">ZaHny inc © 2026 Bcn</a>
-    </footer>
-  </body>
 </html>
