@@ -1,0 +1,24 @@
+.oculto {
+    display: none ;
+}
+
+.error_display {
+    border: 3px;
+    border: solid red;
+}
+
+.logo {
+    text-decoration: none; /*treu el subratllat dels links*/
+    color: rgb(255, 0, 0);
+    font-weight: bold ;
+    
+    border-radius: 20px;
+     background-size: auto;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    padding-top: 28px;
+    background-image: url("../img/Penta.png");
+    
+    background-size: cover;
+}
