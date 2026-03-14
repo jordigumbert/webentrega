@@ -5,9 +5,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 10px;
   
-  border-bottom: 5px solid #333;
+  border-bottom: 3px solid #666666;
   margin-bottom: 0px;
   
   background-color: #3a4ed5 ;
@@ -58,7 +58,7 @@ nav a {
 }
 .sub3 {
   /* to això per subratllar en degradat de color*/
-  border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
+  border-image: linear-gradient(to right, #3a4ed5 100%, #3acfd5 0%) 1;
   border-bottom-width: 4px;
   border-top-width: 0px;
   border-left-width: 0px;

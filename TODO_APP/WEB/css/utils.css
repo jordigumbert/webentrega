@@ -10,15 +10,17 @@
 .logo {
     text-decoration: none; /*treu el subratllat dels links*/
     color: rgb(255, 0, 0);
+    background-color: rgba(47, 65, 168, 0.478);
     font-weight: bold ;
+    text-align: center;
+
+    border-radius: 40px;
     
-    border-radius: 20px;
-     background-size: auto;
     width: 80px;
     height: 80px;
-    text-align: center;
-    padding-top: 28px;
-    background-image: url("../img/Penta.png");
     
+    padding-top: 27px;
+    
+    background-image: url("../img/Penta.png");
     background-size: cover;
 }

@@ -19,6 +19,9 @@ footer {
 /*-----------------------------------------------------------------------------------------------*/
 /*---------------------------MAIN--------------*/
 
+html,body {
+    height: 100%;
+}
 
 body {
     display: flex;
@@ -26,11 +29,17 @@ body {
     background-size: cover;
     flex-grow: 1;
 }
+main {
 
 
-html,body {
-    height: 100%;
+  background-image: url("../img/index_fons.jpg");
+  background-size: cover;
+ flex-grow: 1;
+  padding: 30px;
+
+ 
 }
+
 
 
 
